@@ -1,3 +1,6 @@
 ---
 
-- src: freehck.user-func
+- src:  freehck.user-func
+
+#- src: https://github.com/freehck/ansible-role-user-func
+#  name: freehck.user-func
