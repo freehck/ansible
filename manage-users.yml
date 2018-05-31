@@ -1,0 +1,18 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: all
+  become: yes
+  become_user: root
+  vars_files:
+    - vars/ssh_public_keys.yml
+  vars:
+    common_groups: [ users ]
+  roles:
+
+    - tags: [ admins, freehck ]
+      role: freehck.user-func
+      username: freehck
+      give_sudo: yes
+      authorized_keys: [ freehck ]
+      hosts:
+        - host: all

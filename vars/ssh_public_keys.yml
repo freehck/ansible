@@ -1,0 +1,4 @@
+ssh_public_keys:
+  - name: freehck
+    fullname: Дмитрий Кашин
+    key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPSD4/7GDGnHuFr/p/ZmDoW0RZ/3bHvoI/s5WwOpARJuqgnzj2CyfiPxkKzvCuncUq8O8FfjnAyyj7pEIV2MSEQnxzoFDfcJHRH4sw68TLlGENUvQjtTqrZQ2fyZ6Nu7dktq4A3aOxV0rVZa2oJMA1V1LFj5y9u9B4Sj1pSuY0HkAF1XHJDyBQUs8ncrBkwakqCw0wKI7aLC6tph4whFzJqs8LSnwrR6kMMyVC2xjaw8vczM1wcYVfc6lPN7tWJTH3GrjQRdEYEJo3VqInoiQ9OKb171fMrp9N1u6a88ffTDdX3Jlgm8MRSItuGkdJ9tNXke/hq7GuKmavx7sMf34d freehck@localhost
